@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF8" />
+	<title>Homework Step 3</title>
+	<link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+<script src="jscript.js"></script>
+
+	<div class="form_container">
+		<button onclick="listRepositories();">List Repositories</button>&nbsp;&nbsp;
+		<button onclick="clearData();">Clear</button>
+		<br><br>
+		<input type="text" id="repository_name" placeholder="repository name" />&nbsp;&nbsp;
+		<button onclick="searchRepository();">Find Repository</button>
+		<br><br>
+		<input type="text" id="user_name" placeholder="user name" />&nbsp;&nbsp;
+		<button onclick="searchUser();">Find User</button>
+	</div>
+	<div class ="loader invisible" id ="resultLoader"></div>
+	<div id="repository_data"></div>
+	
+</body>
+</html>
