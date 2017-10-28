@@ -64,3 +64,4 @@ $.getJSON('http://myapi.com', function(data){
 	data = data.map(function (x) { return x * 8; });
 	writeDataToFile(data);
 });
+
